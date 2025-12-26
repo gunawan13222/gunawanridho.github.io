@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gun — Web Developer & Graphic Designer</title>
+  <meta name="description" content="Portofolio Gun — Web Developer & Graphic Designer" />
+
+  <!-- Font Koran -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #fdfdfd;   /* putih tulang */
+      --fg: #111111;   /* hitam pekat */
+      --muted: #555555;/* abu */
+    }
+    body {
+      background: var(--bg);
+      color: var(--fg);
+      font-family: "Merriweather", Georgia, "Times New Roman", serif;
+      line-height: 1.7;
+    }
+    h1, h2, h3, h4 {
+      font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+      font-weight: 700;
+      color: var(--fg);
+    }
+    p, li {
+      color: var(--muted);
+    }
+    a {
+      color: var(--fg);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    section, header, footer {
+      border-color: #ccc !important;
+    }
+  </style>
+</head>
+<body class="min-h-screen">
+
+  <!-- NAV -->
+  <header class="border-b bg-white sticky top-0 z-50" data-aos="fade-down">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#home" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full border flex items-center justify-center font-bold">G</div>
+        <div class="text-base font-semibold">Gun</div>
+      </a>
+      <nav class="hidden md:flex gap-6 text-sm uppercase tracking-wide">
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Pengalaman</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+      <button class="md:hidden text-xl">☰</button>
+    </div>
+  </header>
+
+
+
+  
+ <!-- HERO -->
+<main id="home" class="max-w-3xl mx-auto px-6 py-16 text-center" data-aos="fade-up">
+  
+ <!-- Foto Profil (Bulat dengan Border Instagram Story) -->
+<div class="flex justify-center mb-6">
+  <div class="p-1 rounded-full bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600">
+    <div class="w-40 h-40 bg-gray-50 flex items-center justify-center shadow-lg rounded-full overflow-hidden border-4 border-white">
+      <img src="/img/profil/Gunnfoto.jpg" alt="Foto Profil M. Gunawan" 
+           class="w-full h-full object-cover">
+    </div>
+  </div>
+</div>
+<h1 class="text-4xl mb-2 px-2 py-1">
+  <span id="typed-name" class="align-middle"></span>
+  <!-- Centang Biru inline -->
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="inline h-[1em] w-auto align-middle">
+    <polygon fill="#42a5f5" points="29.62,3 33.053,8.308 39.367,8.624 39.686,14.937 44.997,18.367 42.116,23.995 45,29.62 39.692,33.053 39.376,39.367 33.063,39.686 29.633,44.997 24.005,42.116 18.38,45 14.947,39.692 8.633,39.376 8.314,33.063 3.003,29.633 5.884,24.005 3,18.38 8.308,14.947 8.624,8.633 14.937,8.314 18.367,3.003 23.995,5.884"></polygon>
+    <polygon fill="#fff" points="21.396,31.255 14.899,24.76 17.021,22.639 21.428,27.046 30.996,17.772 33.084,19.926"></polygon>
+  </svg>
+</h1>
+
+<br>
+
+<h2 class="text-xl mb-4 bg-black text-white inline-block px-3 py-1">
+  <span id="typed-role"></span>
+</h2>
+  <p>“Simplicity is the ultimate sophistication.”</p>
+
+  <!-- CTA -->
+  <div class="mt-6 flex flex-wrap justify-center gap-3 text-sm">
+    <a href="#projects" class="px-4 py-2 border  hover:bg-black hover:text-white transition">Lihat Proyek</a>
+    <a href="#contact" class="px-4 py-2 border hover:bg-black hover:text-white transition">Hubungi</a>
+    <a href="https://drive.google.com/file/d/1cP-wK5e-bexWkMQa9MC2QBgmljajWYeq/view?usp=sharing" 
+       target="_blank" 
+       class="px-4 py-2 border hover:bg-black hover:text-white transition">
+       Lihat CV
+    </a>
+  </div>
+
+  <!-- Info -->
+  <ul class="mt-6 text-sm space-y-1">
+    <li>📍 Desa Kidang</li>
+    <li>🎓 Teknik Informatika</li>
+  </ul>
+
+</main>
+
+
+  <!-- ABOUT -->
+  <section id="about" class="border-t" data-aos="fade-up">
+    <div class="max-w-5xl mx-auto px-6 py-12">
+      <h2 class="text-2xl mb-4">Tentang Saya</h2>
+<p class="text-justify">
+  Saya mahasiswa Teknik Informatika dengan fokus front-end dan desain grafis. 
+  Senang menyelesaikan masalah dengan solusi sederhana. 
+  Saat ini sedang mengerjakan Sistem Informasi Tumbuh Kembang Balita untuk Posyandu Desa Kidang.
+</p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+<section class="border-t" data-aos="fade-up">
+  <div id="skills" class="max-w-5xl mx-auto px-6 py-12">
+    <h2 class="text-3xl font-extrabold uppercase mb-8 text-center border-b pb-2 tracking-wide">
+      Keahlian dan Tool
+    </h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+      
+      <div class="transform transition duration-300 hover:scale-105">
+        <img src="/img/skill/HTML.png" alt="HTML" class="h-12 mx-auto mb-2">
+        <p class="text-sm font-medium">HTML</p>
+      </div>
+      
+      <div class="transform transition duration-300 hover:scale-105">
+        <img src="/img/skill/css-3.svg" alt="CSS" class="h-12 mx-auto mb-2">
+        <p class="text-sm font-medium">CSS</p>
+      </div>
+      
+      <div class="transform transition duration-300 hover:scale-105">
+        <img src="/img/skill/JavaScript-logo.png" alt="JavaScript" class="h-12 mx-auto mb-2">
+        <p class="text-sm font-medium">JavaScript</p>
+      </div>
+      
+      <div class="transform transition duration-300 hover:scale-105">
+        <img src="/img/skill/php.png" alt="PHP" class="h-12 mx-auto mb-2">
+        <p class="text-sm font-medium">PHP</p>
+      </div>
+      
+      <div class="transform transition duration-300 hover:scale-105">
+        <img src="/img/skill/mysql-logo.svg" alt="MySQL" class="h-12 mx-auto mb-2">
+        <p class="text-sm font-medium">MySQL</p>
+      </div>
+      
+      <div class="transform transition duration-300 hover:scale-105">
+        <img src="/img/skill/Figma.png" alt="Figma" class="h-12 mx-auto mb-2">
+        <p class="text-sm font-medium">Figma</p>
+      </div>
+      
+      <div class="transform transition duration-300 hover:scale-105">
+        <img src="/img/skill/canva.svg" alt="Canva" class="h-12 mx-auto mb-2">
+        <p class="text-sm font-medium">Canva</p>
+      </div>
+      
+      <div class="transform transition duration-300 hover:scale-105">
+        <img src="/img/skill/Laravel.svg.png" alt="Laravel" class="h-12 mx-auto mb-2">
+        <p class="text-sm font-medium">Laravel</p>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+<!-- PROJECTS -->
+<section id="projects" class="border-t bg-white" data-aos="fade-up">
+  <div class="max-w-6xl mx-auto px-6 py-12">
+    <h2 class="text-3xl font-extrabold uppercase mb-8 text-center border-b pb-2 tracking-wide">Proyek</h2>
+    
+  <!-- Filter -->
+<div class="flex flex-wrap justify-center gap-2 mb-8 px-4">
+  <button class="filter-btn active px-4 py-2 border border-black text-xs sm:text-sm uppercase font-bold  hover:bg-black hover:text-white transition" data-filter="all">Semua</button>
+  <button class="filter-btn px-4 py-2 border border-black text-xs sm:text-sm uppercase font-bold  hover:bg-black hover:text-white transition" data-filter="web">Web</button>
+  <button class="filter-btn px-4 py-2 border border-black text-xs sm:text-sm uppercase font-bold  hover:bg-black hover:text-white transition" data-filter="branding">Branding</button>
+  <button class="filter-btn px-4 py-2 border border-black text-xs sm:text-sm uppercase font-bold  hover:bg-black hover:text-white transition" data-filter="desain">Desain</button>
+</div>
+
+
+    <!-- Grid Project -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="projects-grid">
+      <!-- Card Project -->
+      <div class="project-card border-2 border-black p-4 bg-white shadow-sm hover:shadow-md transition" data-category="web">
+        <img src="/img/projek/projek.png" alt="Aplikasi Posyandu" class="w-full h-40 object-cover border-b-2 border-black mb-4">
+        <h3 class="font-bold text-xl uppercase mb-2">Aplikasi Posyandu</h3>
+        <p class="text-sm leading-relaxed mb-4">Sistem informasi tumbuh kembang balita berbasis web untuk mendukung kegiatan Posyandu.</p>
+        <a href="/detail_projek.html" class="inline-block text-xs font-bold uppercase tracking-wider border border-black px-3 py-1 hover:bg-black hover:text-white transition">Detail</a>
+      </div>
+
+      <div class="project-card border-2 border-black p-4 bg-white shadow-sm hover:shadow-md transition" data-category="branding">
+        <img src="/img/projek/projek1.png" alt="Branding HUT Desa Kidang" class="w-full h-40 object-cover border-b-2 border-black mb-4">
+        <h3 class="font-bold text-xl uppercase mb-2">Ligaku </h3>
+        <p class="text-sm leading-relaxed mb-4">Logo dan identitas visual untuk perayaan ulang tahun Desa Kidang.</p>
+        <a href="/detail_projek.html"  class="inline-block text-xs font-bold uppercase tracking-wider border border-black px-3 py-1 hover:bg-black hover:text-white transition">Detail</a>
+      </div>
+
+      <div class="project-card border-2 border-black p-4 bg-white shadow-sm hover:shadow-md transition" data-category="desain">
+        <img src="/img/projek/projek3.jpg" alt="Website Portfolio" class="w-full h-40 object-cover border-b-2 border-black mb-4">
+        <h3 class="font-bold text-xl uppercase mb-2">Top Up game Store</h3>
+        <p class="text-sm leading-relaxed mb-4">Website portfolio pribadi dengan desain minimalis hitam-putih untuk menampilkan karya.</p>
+        <a href="/detail_projek.html"  class="inline-block text-xs font-bold uppercase tracking-wider border border-black px-3 py-1 hover:bg-black hover:text-white transition">Detail</a>
+      </div>
+
+      <div class="project-card border-2 border-black p-4 bg-white shadow-sm hover:shadow-md transition" data-category="desain">
+        <img src="/img/projek/projek3.jpg" alt="Website Portfolio" class="w-full h-40 object-cover border-b-2 border-black mb-4">
+        <h3 class="font-bold text-xl uppercase mb-2">Ligaku</h3>
+        <p class="text-sm leading-relaxed mb-4">Website portfolio pribadi dengan desain minimalis hitam-putih untuk menampilkan karya.</p>
+        <a href="/detail_projek.html"  class="inline-block text-xs font-bold uppercase tracking-wider border border-black px-3 py-1 hover:bg-black hover:text-white transition">Detail</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="border-t bg-white" data-aos="fade-up">
+  <div class="max-w-6xl mx-auto px-6 py-12">
+    <h2 class="text-2xl font-bold mb-8 text-center uppercase">Pengalaman</h2>
+
+    <!-- Timeline -->
+    <div class="relative border-l-2 border-black">
+
+      <!-- Item 1 -->
+      <div class="mb-10 ml-6">
+        <div class="absolute w-4 h-4 bg-black rounded-full -left-2.5 border border-white"></div>
+        <div class="cursor-pointer experience-item" data-img="/img/projek/projek.png">
+          <h3 class="font-bold">Freelance Designer <span class="text-sm text-gray-500">(2023)</span></h3>
+          <p class="text-sm text-gray-700">Branding & poster untuk acara lokal.</p>
+        </div>
+        <!-- Tempat gambar muncul -->
+        <div class="experience-preview hidden mt-4">
+          <img src="" alt="Preview"
+               class="w-full max-w-3xl border-4 border-black shadow-lg object-cover aspect-video transition duration-500">
+        </div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="mb-10 ml-6">
+        <div class="absolute w-4 h-4 bg-black rounded-full -left-2.5 border border-white"></div>
+        <div class="cursor-pointer experience-item" data-img="/img/projek/projek1.png">
+          <h3 class="font-bold">Project Aplikasi Posyandu <span class="text-sm text-gray-500">(2024)</span></h3>
+          <p class="text-sm text-gray-700">Website manajemen tumbuh kembang balita.</p>
+        </div>
+        <!-- Tempat gambar muncul -->
+        <div class="experience-preview hidden mt-4">
+          <img src="" alt="Preview"
+               class="w-full max-w-3xl border-4 border-black shadow-lg object-cover aspect-video transition duration-500">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Typed.js -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  var typedName = new Typed("#typed-name", {
+    strings: ["M. Gunawan Ridho Pribadi"],
+    typeSpeed: 60,
+    backSpeed: 40,
+    showCursor: false,
+  });
+
+  var typedRole = new Typed("#typed-role", {
+    strings: ["Web Developer &amp; Graphic Designer"],
+    typeSpeed: 50,
+    backSpeed: 30,
+    startDelay: 2000,
+    showCursor: false
+  });
+</script>
+
+<script>
+  document.querySelectorAll('.experience-item').forEach((item, index) => {
+    item.addEventListener('click', () => {
+      const imgSrc = item.getAttribute('data-img');
+      const previewContainer = item.parentElement.querySelector('.experience-preview');
+      const previewImg = previewContainer.querySelector('img');
+
+      // Toggle show/hide
+      if (previewContainer.classList.contains('hidden')) {
+        previewImg.src = imgSrc;
+        previewContainer.classList.remove('hidden');
+      } else {
+        previewContainer.classList.add('hidden');
+      }
+    });
+  });
+</script>
+
+
+  <!-- CONTACT -->
+  <section id="contact" class="border-t" data-aos="fade-up">
+    <div class="max-w-3xl mx-auto px-6 py-12">
+      <h2 class="text-2xl mb-4">Kontak</h2>
+      <p>Email: <a href="mailto:gun@example.com" class="underline">gun@example.com</a></p>
+      <p>GitHub: <a href="#" class="underline">github.com/gun</a></p>
+      <p>Behance: <a href="#" class="underline">behance.net/gun</a></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t py-6 text-center text-sm text-gray-600 bg-white" data-aos="fade-up">
+    © 2025 Gun — Web Developer & Graphic Designer
+  </footer>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800, // durasi animasi
+      once: true     // animasi hanya sekali
+    });
+  </script>
+
+
+<!-- SCRIPT FILTER -->
+<script>
+  const filterBtns = document.querySelectorAll(".filter-btn");
+  const projects = document.querySelectorAll(".project-card");
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener("click", () => {
+      // remove active class
+      filterBtns.forEach(b => b.classList.remove("bg-black","text-white","active"));
+      btn.classList.add("bg-black","text-white","active");
+
+      const category = btn.dataset.filter;
+
+      projects.forEach(card => {
+        if (category === "all" || card.dataset.category === category) {
+          card.style.display = "block";
+        } else {
+          card.style.display = "none";
+        }
+      });
+    });
+  });
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detail Proyek - Aplikasi Posyandu</title>
+  <meta name="description" content="Detail proyek Aplikasi Posyandu oleh Gunawan Ridho Pribadi — Website sistem informasi tumbuh kembang balita berbasis web.">
+
+  <!-- TailwindCSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: "Merriweather", Georgia, serif;
+      background-color: #ffffff;
+      color: #111;
+      line-height: 1.8;
+    }
+    h1, h2, h3 {
+      font-family: "Playfair Display", Georgia, serif;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Container -->
+  <div class="max-w-5xl mx-auto px-6 py-12">
+
+    <!-- Judul -->
+    <h1 data-aos="fade-up" data-aos-duration="1000"
+        class="text-4xl md:text-5xl font-extrabold uppercase border-b-4 border-black  pb-3 mb-10 text-center">
+      Aplikasi Posyandu
+    </h1>
+
+    <!-- Gambar -->
+   <div class="mb-10" data-aos="fade-up" data-aos-duration="1200">
+  <img src="/img/projek/projek.png" 
+       alt="Aplikasi Posyandu"
+       class="w-auto max-w-full max-h-96 mx-auto border-4 border-black shadow-xl">
+</div>
+
+
+    <!-- Deskripsi -->
+    <article class="space-y-6 text-lg">
+      <p data-aos="fade-up" data-aos-duration="1000">
+        <strong>Aplikasi Posyandu</strong> adalah sistem informasi berbasis web yang dirancang untuk
+        mendukung kegiatan Posyandu, khususnya dalam pemantauan tumbuh kembang balita. 
+        Website ini dibangun menggunakan <em>Laravel</em> dengan desain antarmuka sederhana
+        sehingga mudah digunakan oleh kader Posyandu.
+      </p>
+
+      <p data-aos="fade-up" data-aos-duration="1100">
+        Fitur utama aplikasi meliputi:
+      </p>
+      <ul class="list-disc pl-6 space-y-1 text-base" data-aos="fade-up" data-aos-duration="1200">
+        <li>Manajemen data balita (profil, riwayat kesehatan, grafik pertumbuhan).</li>
+        <li>Input pertumbuhan balita: tinggi, berat, dan lingkar kepala.</li>
+        <li>Visualisasi grafik Z-Score sesuai standar WHO.</li>
+        <li>Laporan perkembangan bulanan.</li>
+      </ul>
+
+      <p data-aos="fade-up" data-aos-duration="1300">
+        Proyek ini dibuat pada tahun <strong>2024</strong> sebagai bagian dari
+        penelitian untuk mendukung digitalisasi layanan kesehatan di <strong>Desa Kidang</strong>.
+      </p>
+    </article>
+
+    <!-- Informasi Tambahan -->
+    <div class="mt-14 border-t-2 border-black pt-6 grid grid-cols-1 sm:grid-cols-2 gap-6 text-sm uppercase font-bold tracking-wide">
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <p class="mb-1">Klien:</p>
+        <p class="font-normal normal-case">Posyandu Desa Kidang</p>
+      </div>
+      <div data-aos="fade-up" data-aos-duration="1100">
+        <p class="mb-1">Tahun:</p>
+        <p class="font-normal normal-case">2024</p>
+      </div>
+      <div data-aos="fade-up" data-aos-duration="1200">
+        <p class="mb-1">Teknologi:</p>
+        <p class="font-normal normal-case">Laravel, TailwindCSS, PHP, MySQL</p>
+      </div>
+      <div data-aos="fade-up" data-aos-duration="1300">
+        <p class="mb-1">Kategori:</p>
+        <p class="font-normal normal-case">Website / Sistem Informasi</p>
+      </div>
+    </div>
+
+  <!-- Tombol Demo & Kembali -->
+<div class="mt-14 flex flex-col sm:flex-row justify-center gap-4" data-aos="fade-up" data-aos-duration="1400">
+  <!-- Tombol Demo -->
+  <a href="http://webalita.com/" target="_blank"
+     class="inline-block border-4 border-black px-6 py-3 text-white font-extrabold uppercase tracking-wide bg-black hover:bg-yellow-300 hover:text-black transition duration-300 shadow-lg">
+    Lihat Demo
+  </a>
+
+  <!-- Tombol Kembali -->
+  <a href="index.html#projects" 
+     class="inline-block border-4 border-black px-6 py-3 text-base font-extrabold uppercase tracking-wide bg-white hover:bg-black hover:text-white transition duration-300 shadow-lg">
+    ← Kembali ke Proyek
+  </a>
+</div>
+
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true,   // animasi hanya sekali
+      offset: 50    // mulai animasi lebih cepat
+    });
+  </script>
+
+</body>
+</html>
