@@ -52,7 +52,7 @@
     <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
       <a href="#home" class="flex items-center gap-3">
         <div class="w-10 h-10 rounded-full border flex items-center justify-center font-bold">G</div>
-        <div class="text-base font-semibold">Gun</div>
+        <div class="text-base font-semibold">Hai! Iam Gun</div>
       </a>
       <nav class="hidden md:flex gap-6 text-sm uppercase tracking-wide">
         <a href="#skills">Skills</a>
@@ -181,52 +181,97 @@
 
 
 <!-- PROJECTS -->
-<section id="projects" class="border-t bg-white" data-aos="fade-up">
-  <div class="max-w-6xl mx-auto px-6 py-12">
-    <h2 class="text-3xl font-extrabold uppercase mb-8 text-center border-b pb-2 tracking-wide">Proyek</h2>
-    
-  <!-- Filter -->
-<div class="flex flex-wrap justify-center gap-2 mb-8 px-4">
-  <button class="filter-btn active px-4 py-2 border border-black text-xs sm:text-sm uppercase font-bold  hover:bg-black hover:text-white transition" data-filter="all">Semua</button>
-  <button class="filter-btn px-4 py-2 border border-black text-xs sm:text-sm uppercase font-bold  hover:bg-black hover:text-white transition" data-filter="web">Web</button>
-  <button class="filter-btn px-4 py-2 border border-black text-xs sm:text-sm uppercase font-bold  hover:bg-black hover:text-white transition" data-filter="branding">Branding</button>
-  <button class="filter-btn px-4 py-2 border border-black text-xs sm:text-sm uppercase font-bold  hover:bg-black hover:text-white transition" data-filter="desain">Desain</button>
-</div>
+<section id="projects" class="bg-white" data-aos="fade-up">
+  <div class="max-w-6xl mx-auto px-6 py-16">
 
+    <!-- Title -->
+    <h2 class="text-3xl font-extrabold uppercase mb-10 text-center tracking-wide">
+      Proyek
+    </h2>
 
-    <!-- Grid Project -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="projects-grid">
-      <!-- Card Project -->
-      <div class="project-card border-2 border-black p-4 bg-white shadow-sm hover:shadow-md transition" data-category="web">
-        <img src="img/projek/projek.png" alt="Aplikasi Posyandu" class="w-full h-40 object-cover border-b-2 border-black mb-4">
-        <h3 class="font-bold text-xl uppercase mb-2">Aplikasi Posyandu</h3>
-        <p class="text-sm leading-relaxed mb-4">Sistem informasi tumbuh kembang balita berbasis web untuk mendukung kegiatan Posyandu.</p>
-        <a href="detail_projek.html" class="inline-block text-xs font-bold uppercase tracking-wider border border-black px-3 py-1 hover:bg-black hover:text-white transition">Detail</a>
+    <!-- Filter -->
+    <div class="flex flex-wrap justify-center gap-3 mb-12">
+      <button class="filter-btn active px-5 py-2 text-xs sm:text-sm uppercase font-bold bg-black text-white transition" data-filter="all">
+        Semua
+      </button>
+      <button class="filter-btn px-5 py-2 text-xs sm:text-sm uppercase font-bold border border-black hover:bg-black hover:text-white transition" data-filter="web">
+        Web
+      </button>
+      <button class="filter-btn px-5 py-2 text-xs sm:text-sm uppercase font-bold border border-black hover:bg-black hover:text-white transition" data-filter="branding">
+        Branding
+      </button>
+      <button class="filter-btn px-5 py-2 text-xs sm:text-sm uppercase font-bold border border-black hover:bg-black hover:text-white transition" data-filter="desain">
+        Desain
+      </button>
+    </div>
+
+    <!-- Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10" id="projects-grid">
+
+      <!-- Card -->
+      <div class="project-card group" data-category="web">
+        <div class="aspect-square w-full overflow-hidden rounded-2xl bg-gray-100">
+          <img src="img/projek/Posyandu.jpg"
+               alt="Aplikasi Posyandu"
+               class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+        </div>
+
+        <div class="mt-5">
+          <h3 class="font-bold text-xl uppercase mb-1">Aplikasi Posyandu</h3>
+          <p class="text-sm text-gray-600 mb-3">
+            Sistem informasi tumbuh kembang balita berbasis web.
+          </p>
+          <a href="detail_projek.html"
+             class="text-xs font-bold uppercase tracking-wider hover:underline">
+            Lihat Detail →
+          </a>
+        </div>
       </div>
 
-      <div class="project-card border-2 border-black p-4 bg-white shadow-sm hover:shadow-md transition" data-category="branding">
-        <img src="img/projek/projek1.png" alt="Branding HUT Desa Kidang" class="w-full h-40 object-cover border-b-2 border-black mb-4">
-        <h3 class="font-bold text-xl uppercase mb-2">Ligaku </h3>
-        <p class="text-sm leading-relaxed mb-4">Logo dan identitas visual untuk perayaan ulang tahun Desa Kidang.</p>
-        <a href="detail_projek.html"  class="inline-block text-xs font-bold uppercase tracking-wider border border-black px-3 py-1 hover:bg-black hover:text-white transition">Detail</a>
+      <!-- Card -->
+      <div class="project-card group" data-category="branding">
+        <div class="aspect-square w-full overflow-hidden rounded-2xl bg-gray-100">
+          <img src="img/projek/ligaku.jpg"
+               alt="Ligaku"
+               class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+        </div>
+
+        <div class="mt-5">
+          <h3 class="font-bold text-xl uppercase mb-1">Ligaku</h3>
+          <p class="text-sm text-gray-600 mb-3">
+           Aplikasi manajemen liga sepak bola tuhu jati cup
+          </p>
+          <a href="detail_projek.html"
+             class="text-xs font-bold uppercase tracking-wider hover:underline">
+            Lihat Detail →
+          </a>
+        </div>
       </div>
 
-      <div class="project-card border-2 border-black p-4 bg-white shadow-sm hover:shadow-md transition" data-category="desain">
-        <img src="img/projek/projek3.jpg" alt="Website Portfolio" class="w-full h-40 object-cover border-b-2 border-black mb-4">
-        <h3 class="font-bold text-xl uppercase mb-2">Top Up game Store</h3>
-        <p class="text-sm leading-relaxed mb-4">Website portfolio pribadi dengan desain minimalis hitam-putih untuk menampilkan karya.</p>
-        <a href="detail_projek.html"  class="inline-block text-xs font-bold uppercase tracking-wider border border-black px-3 py-1 hover:bg-black hover:text-white transition">Detail</a>
+      <!-- Card -->
+      <div class="project-card group" data-category="desain">
+        <div class="aspect-square w-full overflow-hidden rounded-2xl bg-gray-100">
+          <img src="img/projek/Sekolah.jpg"
+               alt="Top Up Game Store"
+               class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+        </div>
+
+        <div class="mt-5">
+          <h3 class="font-bold text-xl uppercase mb-1">Website Profil Sekolah</h3>
+          <p class="text-sm text-gray-600 mb-3">
+             Website Sekolah 
+          </p>
+          <a href="detail_projek.html"
+             class="text-xs font-bold uppercase tracking-wider hover:underline">
+            Lihat Detail →
+          </a>
+        </div>
       </div>
 
-      <div class="project-card border-2 border-black p-4 bg-white shadow-sm hover:shadow-md transition" data-category="desain">
-        <img src="img/projek/projek3.jpg" alt="Website Portfolio" class="w-full h-40 object-cover border-b-2 border-black mb-4">
-        <h3 class="font-bold text-xl uppercase mb-2">Ligaku</h3>
-        <p class="text-sm leading-relaxed mb-4">Website portfolio pribadi dengan desain minimalis hitam-putih untuk menampilkan karya.</p>
-        <a href="detail_projek.html"  class="inline-block text-xs font-bold uppercase tracking-wider border border-black px-3 py-1 hover:bg-black hover:text-white transition">Detail</a>
-      </div>
     </div>
   </div>
 </section>
+
 
 <!-- EXPERIENCE -->
 <section id="experience" class="border-t bg-white" data-aos="fade-up">
@@ -305,6 +350,18 @@
     });
   });
 </script>
+
+<a href="https://wa.me/087803140366?text=Halo%20Gun,%20saya%20tertarik%20dengan%20jasa%20Anda"
+   target="_blank"
+   aria-label="Chat WhatsApp"
+   class="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 rounded-full 
+          bg-[#25D366] shadow-lg hover:shadow-2xl 
+          transition transform hover:scale-110">
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+       alt="WhatsApp"
+       class="w-7 h-7">
+</a>
 
 
   <!-- CONTACT -->
